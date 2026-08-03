@@ -36,7 +36,7 @@
         cd ..
     ```
 - [ ✅ ] PyTorch Section 2
-    - Notes: sections 1-13
+    - Notes: Parts 14-32
 
 ## Challenges Encountered
 | # | Challenge | Fix |

@@ -1,1 +1,5 @@
 .DS_Store
+weights/*.pth
+__pycache__/
+*.pyc
+.venv/

@@ -17,8 +17,7 @@ Each working day gets its own folder containing that day's materials (papers, no
 .
 ├── README.md
 ├── Day01/
-│   ├── GroundingDINOPaper.pdf
-│   ├── summary_draft.md
+│   ├── Grounding_DINO_Summary.md
 │   └── log.md              # daily log entry (see format below)
 ├── Day02/
 │   └── ...
@@ -32,10 +31,15 @@ Each working day gets its own folder containing that day's materials (papers, no
 Each `DayXX/log.md` follows this template:
 
 ```markdown
-# Day XX — YYYY-MM-DD
+# Day XX — [Weekday], [Date]
 
-## Tasks completed
--
+## To-Do
+- [ ] [Task 1]
+  - Notes:
+- [ ] [Task 2]
+  - Notes:
+- [ ] [Task 3]
+  - Notes:
 
 ## Experiments conducted
 -
@@ -44,7 +48,9 @@ Each `DayXX/log.md` follows this template:
 -
 
 ## Challenges encountered
--
+| # | Challenge | Fix |
+|---|-----------|-----|
+|   |           |     |
 
 ## Planned next steps
 -
