@@ -1,6 +1,6 @@
 # Day 01 — Tuesday, 7/28
 
-**Focus:** Initial exploration of Grounding DINO paper and setup of development environment
+**Focus:** Initial exploration of Grounding DINO paper
 
 ## To-Do
 - [ ✅ ] Read Grounding DINO paper + GitHub README
