@@ -1,0 +1,87 @@
+[
+  {
+    "image": "lfw_02.jpg",
+    "category": "subsets_for_thresholds",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 4,
+    "phrases": [
+      "human face",
+      "human face",
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.55,
+      0.404,
+      0.363,
+      0.358
+    ],
+    "inference_time_sec": 2.935
+  },
+  {
+    "image": "nicholas-green-nPz8akkUmDI-unsplash.jpg",
+    "category": "subsets_for_thresholds",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 18,
+    "phrases": [
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.483,
+      0.423,
+      0.439,
+      0.431,
+      0.449,
+      0.438,
+      0.434,
+      0.421,
+      0.412,
+      0.408,
+      0.401,
+      0.373,
+      0.391,
+      0.374,
+      0.381,
+      0.351,
+      0.388,
+      0.379
+    ],
+    "inference_time_sec": 4.342
+  },
+  {
+    "image": "pexels-moh-adbelghaffar-36986671.jpg",
+    "category": "subsets_for_thresholds",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.402
+    ],
+    "inference_time_sec": 4.108
+  }
+]
