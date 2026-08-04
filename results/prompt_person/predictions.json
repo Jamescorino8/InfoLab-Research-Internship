@@ -1,0 +1,387 @@
+[
+  {
+    "image": "multiple/nicholas-green-nPz8akkUmDI-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 10,
+    "phrases": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.354,
+      0.409,
+      0.574,
+      0.361,
+      0.354,
+      0.496,
+      0.359,
+      0.354,
+      0.571,
+      0.366
+    ],
+    "inference_time_sec": 3.726
+  },
+  {
+    "image": "multiple/simi-iluyomade-tvbxqXI5mmo-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 4,
+    "phrases": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.803,
+      0.78,
+      0.762,
+      0.612
+    ],
+    "inference_time_sec": 3.527
+  },
+  {
+    "image": "multiple/tim-mossholder-hOF1bWoet_Q-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "phrases": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.836,
+      0.824,
+      0.778,
+      0.828,
+      0.641
+    ],
+    "inference_time_sec": 3.2
+  },
+  {
+    "image": "multiple/windows-p74ndnYWRY4-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 7,
+    "phrases": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.809,
+      0.871,
+      0.591,
+      0.716,
+      0.866,
+      0.365,
+      0.378
+    ],
+    "inference_time_sec": 3.448
+  },
+  {
+    "image": "occluded/pexels-alan-fikz-2043851-3680657.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.926
+    ],
+    "inference_time_sec": 3.748
+  },
+  {
+    "image": "occluded/pexels-celine-3776818-11430254.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.915
+    ],
+    "inference_time_sec": 3.489
+  },
+  {
+    "image": "profile/pexels-angela-roma-7480302.jpg",
+    "category": "profile",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.899
+    ],
+    "inference_time_sec": 3.512
+  },
+  {
+    "image": "profile/pexels-augi-1038166.jpg",
+    "category": "profile",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.66
+    ],
+    "inference_time_sec": 3.662
+  },
+  {
+    "image": "profile/pexels-edotommo99-6628908.jpg",
+    "category": "profile",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.865
+    ],
+    "inference_time_sec": 4.696
+  },
+  {
+    "image": "profile/pexels-moh-adbelghaffar-36986671.jpg",
+    "category": "profile",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.91
+    ],
+    "inference_time_sec": 4.388
+  },
+  {
+    "image": "profile/pexels-soc-nang-d-ng-2150345854-36248259.jpg",
+    "category": "profile",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.886
+    ],
+    "inference_time_sec": 3.34
+  },
+  {
+    "image": "single/lfw_00.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.425,
+      0.357
+    ],
+    "inference_time_sec": 2.057
+  },
+  {
+    "image": "single/lfw_01.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "phrases": [
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.498,
+      0.47,
+      0.489
+    ],
+    "inference_time_sec": 1.995
+  },
+  {
+    "image": "single/lfw_02.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 4,
+    "phrases": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.554,
+      0.503,
+      0.431,
+      0.412
+    ],
+    "inference_time_sec": 2.099
+  },
+  {
+    "image": "single/lfw_03.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.794,
+      0.43
+    ],
+    "inference_time_sec": 2.375
+  },
+  {
+    "image": "single/lfw_04.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "phrases": [
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.621,
+      0.401,
+      0.407
+    ],
+    "inference_time_sec": 2.253
+  },
+  {
+    "image": "single/lfw_05.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.848
+    ],
+    "inference_time_sec": 2.132
+  },
+  {
+    "image": "single/lfw_06.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.766,
+      0.474
+    ],
+    "inference_time_sec": 2.197
+  },
+  {
+    "image": "single/lfw_07.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.428
+    ],
+    "inference_time_sec": 2.164
+  },
+  {
+    "image": "single/lfw_08.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "phrases": [
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.524,
+      0.663,
+      0.38
+    ],
+    "inference_time_sec": 2.187
+  },
+  {
+    "image": "single/lfw_09.jpg",
+    "category": "single",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.534,
+      0.538
+    ],
+    "inference_time_sec": 2.139
+  }
+]

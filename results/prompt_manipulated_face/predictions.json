@@ -1,0 +1,351 @@
+[
+  {
+    "image": "multiple/nicholas-green-nPz8akkUmDI-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.426,
+      0.39,
+      0.387
+    ],
+    "inference_time_sec": 3.786
+  },
+  {
+    "image": "multiple/simi-iluyomade-tvbxqXI5mmo-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.431,
+      0.37
+    ],
+    "inference_time_sec": 3.384
+  },
+  {
+    "image": "multiple/tim-mossholder-hOF1bWoet_Q-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.608,
+      0.59,
+      0.593,
+      0.492,
+      0.477
+    ],
+    "inference_time_sec": 3.149
+  },
+  {
+    "image": "multiple/windows-p74ndnYWRY4-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 6,
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.451,
+      0.423,
+      0.426,
+      0.425,
+      0.412,
+      0.35
+    ],
+    "inference_time_sec": 3.14
+  },
+  {
+    "image": "occluded/pexels-alan-fikz-2043851-3680657.jpg",
+    "category": "occluded",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "manipulated face",
+      "face"
+    ],
+    "scores": [
+      0.487,
+      0.382
+    ],
+    "inference_time_sec": 3.342
+  },
+  {
+    "image": "occluded/pexels-celine-3776818-11430254.jpg",
+    "category": "occluded",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.76
+    ],
+    "inference_time_sec": 3.328
+  },
+  {
+    "image": "profile/pexels-angela-roma-7480302.jpg",
+    "category": "profile",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.449
+    ],
+    "inference_time_sec": 3.148
+  },
+  {
+    "image": "profile/pexels-augi-1038166.jpg",
+    "category": "profile",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.594
+    ],
+    "inference_time_sec": 3.135
+  },
+  {
+    "image": "profile/pexels-edotommo99-6628908.jpg",
+    "category": "profile",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.691
+    ],
+    "inference_time_sec": 2.956
+  },
+  {
+    "image": "profile/pexels-moh-adbelghaffar-36986671.jpg",
+    "category": "profile",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "face",
+      "face"
+    ],
+    "scores": [
+      0.411,
+      0.376
+    ],
+    "inference_time_sec": 3.077
+  },
+  {
+    "image": "profile/pexels-soc-nang-d-ng-2150345854-36248259.jpg",
+    "category": "profile",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.708
+    ],
+    "inference_time_sec": 3.107
+  },
+  {
+    "image": "single/lfw_00.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.72
+    ],
+    "inference_time_sec": 1.978
+  },
+  {
+    "image": "single/lfw_01.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.593
+    ],
+    "inference_time_sec": 1.968
+  },
+  {
+    "image": "single/lfw_02.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.628
+    ],
+    "inference_time_sec": 1.959
+  },
+  {
+    "image": "single/lfw_03.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.696
+    ],
+    "inference_time_sec": 2.027
+  },
+  {
+    "image": "single/lfw_04.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.546
+    ],
+    "inference_time_sec": 2.029
+  },
+  {
+    "image": "single/lfw_05.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.669
+    ],
+    "inference_time_sec": 2.041
+  },
+  {
+    "image": "single/lfw_06.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.56,
+      0.432
+    ],
+    "inference_time_sec": 1.992
+  },
+  {
+    "image": "single/lfw_07.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.764
+    ],
+    "inference_time_sec": 2.007
+  },
+  {
+    "image": "single/lfw_08.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.467,
+      0.382
+    ],
+    "inference_time_sec": 1.985
+  },
+  {
+    "image": "single/lfw_09.jpg",
+    "category": "single",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.663,
+      0.583
+    ],
+    "inference_time_sec": 2.006
+  }
+]
