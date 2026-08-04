@@ -3,7 +3,7 @@
 **Focus:** Batch inference script — build, debug, and test (Task E); begin image curation (Task C)
 
 ## To-Do
-- [ ✅ ] Curate 20+ test images: single frontal face, multiple faces, profile/occluded faces, small/low-res faces, real images
+- [ ✅ ] Curate 20+ test images: single frontal face, multiple faces, profile/occluded faces, real images
     - Note: Deepfake dataset frames are not yet available; will follow up on FaceForensics++ access requests
 - [ ✅ ] Organize images into labeled folders by category
 - [ ✅ ] Build initial batch-inference script (`src/batch_inference.py`) — accepts input folder, prompt, and thresholds as CLI args; saves annotated images + predictions.json; records per-image inference time
@@ -51,23 +51,25 @@
     python src/batch_inference.py --input_folder data/test_mini --output_folder results/test_mini --prompt "face" --cpu_only
 ```
 - Spot-checked annotated images in `results/test_mini/images/` and `results/test_mismatch/images/` visually for correct box placement and normal (non-BGR-swapped) colors.
-- Curated and organized images for four of five categories (`single_frontal`, `multiple_faces`, `profile_occluded`, `small_lowres`) into `data/` subfolders:
-  - Attempted to source `single_frontal` faces from LFW (official `vis-www.cs.umass.edu` host):
+- Curated and organized images for three of five categories (`single`, `multiple`, `profile`) into `data/` subfolders:
+  - Attempted to source `single` faces from LFW (official `vis-www.cs.umass.edu` host):
 ```bash
-    mkdir -p data/single_frontal
-    cd data/single_frontal
+    mkdir -p data/single
+    cd data/single
     curl -O http://vis-www.cs.umass.edu/lfw/lfw.tgz
 ```
     — server was unresponsive, abandoned this approach.
-  - Used stock portrait/group photos from Unsplash and Pexels instead for `single_frontal`, `multiple_faces`, and `profile_occluded` (sunglasses, hats, side angles, partial hand occlusion) — downloaded manually via browser.
-  - Generated `small_lowres` images by downscaling then upscaling:
-```python
-    import cv2
-    img = cv2.imread("data/single_frontal/some_image.jpg")
-    small = cv2.resize(img, (64, 64), interpolation=cv2.INTER_AREA)
-    upscaled = cv2.resize(small, (img.shape[1], img.shape[0]), interpolation=cv2.INTER_LINEAR)
-    cv2.imwrite("data/small_lowres/degraded_01.jpg", upscaled)
+  - Sourced `single` faces from the `logasja/lfw` dataset on Hugging Face instead, via the `datasets` library:
+```bash
+    pip install datasets
+    python -c "
+    from datasets import load_dataset
+    ds = load_dataset('logasja/lfw', split='train')
+    for i in range(10):
+        ds[i]['image'].save(f'data/single/lfw_{i:02d}.jpg')
+    "
 ```
+  - Used stock portrait/group photos from Unsplash and Pexels for `multiple` and `profile` (sunglasses, hats, side angles, partial hand occlusion) — downloaded manually via browser.
 - Final image count check across categories:
 ```bash
     python -c "
@@ -82,7 +84,7 @@
 ## Results obtained
 - All smoke tests and edge-case tests passed. Script reliably produces annotated images and a valid `predictions.json` with `image`, `category` (inferred from subfolder name), `prompt`, thresholds, `num_boxes`, `phrases`, `scores`, and `inference_time_sec` per entry.
 - Script is ready to run against the curated set.
-- Four of five image categories are curated and organized (`single_frontal`, `multiple_faces`, `profile_occluded`, `small_lowres`). The fifth category, deepfake dataset frames, is not yet available — see note below.
+- Three of five image categories are curated and organized (`single`, `multiple`, `profile`). The remaining categories, deepfake dataset frames, are not yet available — see note below.
 
 ## Challenges Encountered
 | # | Challenge | Fix |
