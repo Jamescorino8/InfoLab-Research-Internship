@@ -1,31 +1,83 @@
 # Day 04 — Monday, 8/3
 
-**Focus:** Batch inference script — build, debug, and test (Task E & Task C); begin image curation
+**Focus:** Batch inference script — build, debug, and test (Task E); begin image curation (Task C)
 
 ## To-Do
 - [ ✅ ] Curate 20+ test images: single frontal face, multiple faces, profile/occluded faces, small/low-res faces, real images
-    - Note: Deepfake frames pending (FaceForensics++/DFDC access request submitted)
+    - Note: Deepfake dataset frames are not yet available; will follow up on FaceForensics++ access requests
 - [ ✅ ] Organize images into labeled folders by category
 - [ ✅ ] Build initial batch-inference script (`src/batch_inference.py`) — accepts input folder, prompt, and thresholds as CLI args; saves annotated images + predictions.json; records per-image inference time
-- [ ✅ ] Debug and resolve script errors (see Challenges below)
+- [ ✅ ] Debug and resolve script errors
 - [ ✅ ] Test script on a small known image before running full experiments
 
 ## Experiments conducted
 - Wrote `src/batch_inference.py`, wrapping `load_model`, `load_image`, `predict`, and `annotate` from `groundingdino.util.inference` in a loop over an image folder, with `argparse` for `--input_folder`, `--output_folder`, `--prompt`, `--box_threshold`, `--text_threshold`, and `--cpu_only`.
-- Ran a smoke test on a small `data/test_mini/` folder (reused Day03's sample image) to validate the script end-to-end before scaling up:
-  - Confirmed clean exit with no traceback.
-  - Confirmed `results/test_mini/images/` contained a correctly annotated output image.
-  - Validated `predictions.json` with `python -m json.tool` and a manual script checking `num_boxes`, `scores`, and `inference_time_sec` per entry for sane values.
-- Tested edge cases:
-  - Empty input folder → exits cleanly, produces `predictions.json` as `[]`.
-  - Non-image files mixed into the folder (e.g. `.DS_Store`) → correctly skipped by the extension filter.
-  - Deliberately mismatched prompt (e.g. "bicycle" on a face photo) → correctly returns `num_boxes: 0` with no crash on drawing zero boxes.
-  - Re-running into the same `--output_folder` with a different prompt → confirmed `predictions.json` is overwritten, not appended (noted as a design consideration for Task D, where threshold sweeps will need distinct output folders per run).
-- Visually spot-checked annotated output images for correct box placement and normal color channels (no BGR/RGB mismatch).
+- Set up smoke-test folder and ran initial test:
+```bash
+    mkdir -p data/test_mini
+    cp Day03/sample_image_raw.jpeg data/test_mini/
+
+    python src/batch_inference.py \
+      --input_folder data/test_mini \
+      --output_folder results/test_mini \
+      --prompt "person" \
+      --cpu_only
+```
+- Debugged two errors during the above run, re-ran after each fix until clean.
+- Validated output:
+```bash
+    python -m json.tool results/test_mini/predictions.json
+
+    python -c "
+    import json
+    data = json.load(open('results/test_mini/predictions.json'))
+    for entry in data:
+        print(entry['image'], entry['num_boxes'], entry['scores'], entry['inference_time_sec'])
+    "
+```
+- Ran edge-case tests:
+```bash
+    # empty folder
+    mkdir -p data/test_empty
+    python src/batch_inference.py --input_folder data/test_empty --output_folder results/test_empty --prompt "person" --cpu_only
+
+    # non-image files mixed in (.DS_Store etc. left in test_mini/)
+    python src/batch_inference.py --input_folder data/test_mini --output_folder results/test_mini --prompt "person" --cpu_only
+
+    # deliberately mismatched prompt -> expect 0 detections
+    python src/batch_inference.py --input_folder data/test_mini --output_folder results/test_mismatch --prompt "bicycle" --cpu_only
+
+    # re-run into same output folder with different prompt -> confirm overwrite behavior
+    python src/batch_inference.py --input_folder data/test_mini --output_folder results/test_mini --prompt "face" --cpu_only
+```
+- Spot-checked annotated images in `results/test_mini/images/` and `results/test_mismatch/images/` visually for correct box placement and normal (non-BGR-swapped) colors.
 - Curated and organized images for four of five categories (`single_frontal`, `multiple_faces`, `profile_occluded`, `small_lowres`) into `data/` subfolders:
-  - Attempted to source `single_frontal` faces from LFW (official `vis-www.cs.umass.edu` host), but the server was unresponsive.
-  - Used stock portrait/group photos from Unsplash and Pexels instead for `single_frontal`, `multiple_faces`, and `profile_occluded` (sunglasses, hats, side angles, partial hand occlusion).
-  - Generated `small_lowres` images by downscaling existing images to a small resolution then upscaling back, to simulate real low-resolution capture rather than just shrinking the display size.
+  - Attempted to source `single_frontal` faces from LFW (official `vis-www.cs.umass.edu` host):
+```bash
+    mkdir -p data/single_frontal
+    cd data/single_frontal
+    curl -O http://vis-www.cs.umass.edu/lfw/lfw.tgz
+```
+    — server was unresponsive, abandoned this approach.
+  - Used stock portrait/group photos from Unsplash and Pexels instead for `single_frontal`, `multiple_faces`, and `profile_occluded` (sunglasses, hats, side angles, partial hand occlusion) — downloaded manually via browser.
+  - Generated `small_lowres` images by downscaling then upscaling:
+```python
+    import cv2
+    img = cv2.imread("data/single_frontal/some_image.jpg")
+    small = cv2.resize(img, (64, 64), interpolation=cv2.INTER_AREA)
+    upscaled = cv2.resize(small, (img.shape[1], img.shape[0]), interpolation=cv2.INTER_LINEAR)
+    cv2.imwrite("data/small_lowres/degraded_01.jpg", upscaled)
+```
+- Final image count check across categories:
+```bash
+    python -c "
+    from pathlib import Path
+    for folder in Path('data').iterdir():
+        if folder.is_dir():
+            imgs = list(folder.glob('*.jp*g')) + list(folder.glob('*.png'))
+            print(folder.name, len(imgs))
+    "
+```
 
 ## Results obtained
 - All smoke tests and edge-case tests passed. Script reliably produces annotated images and a valid `predictions.json` with `image`, `category` (inferred from subfolder name), `prompt`, thresholds, `num_boxes`, `phrases`, `scores`, and `inference_time_sec` per entry.
@@ -42,4 +94,4 @@
 ## Planned next steps
 - Run the tested script across the four available categories with the five specified prompts and log per-category observations for Task C.
 - Begin threshold sweep (Task D) on a representative subset of the available images.
-- Follow up on FaceForensics++/DFDC access requests; incorporate deepfake frames once available.
+- Follow up on FaceForensics++ access requests; incorporate deepfake frames once available.
