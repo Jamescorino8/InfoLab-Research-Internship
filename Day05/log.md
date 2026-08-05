@@ -12,8 +12,6 @@
 - [ ✅ ] Run initial threshold sweep (Task D) on a representative subset (1 image each from multiple, single, profile) across 3 box/text threshold combinations
 - [ ✅ ] Compare threshold sweep results for missed faces, duplicate boxes, false detections, confidence scores
 - [ ✅ ] Update README to reflect final image counts/categories used, note on pending deepfake category, and instructions for running the threshold sweep
-- [  ] Write short report: model summary, experiment methodology, Task C results (prompt behavior patterns), Task D threshold findings, limitations, encountered problems
-- [  ] Organize experiment notes and screenshots into a running report draft
 
 ## Experiments conducted
 

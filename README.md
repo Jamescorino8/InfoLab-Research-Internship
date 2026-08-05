@@ -125,7 +125,9 @@ python src/batch_inference.py \
   --output_folder <path-to-output>
 ```
 
-Outputs: annotated images → `results/images/`, predictions (boxes, labels, confidence scores) → `results/predictions.json` (or `.csv`), with per-image inference time logged.
+Outputs: annotated images → `<path-to-output>/images/`, predictions (boxes, labels, confidence scores) → `<path-to-output>/predictions.json`, with per-image inference time logged.
+
+This repo's `results/` folder contains the actual output from the experiments documented in Day05/log.md — e.g. `results/prompt_human_face/`, `results/thresh_box025_text020/`.
 
 ### Summarizing results
 
