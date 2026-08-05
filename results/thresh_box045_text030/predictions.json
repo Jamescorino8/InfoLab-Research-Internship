@@ -6,13 +6,21 @@
     "box_threshold": 0.45,
     "text_threshold": 0.3,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5197463631629944,
+        0.5002071261405945,
+        0.4041517674922943,
+        0.5072280168533325
+      ]
+    ],
     "phrases": [
       "human face"
     ],
     "scores": [
       0.55
     ],
-    "inference_time_sec": 3.122
+    "inference_time_sec": 2.523
   },
   {
     "image": "nicholas-green-nPz8akkUmDI-unsplash.jpg",
@@ -21,13 +29,21 @@
     "box_threshold": 0.45,
     "text_threshold": 0.3,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.24444738030433655,
+        0.5050361752510071,
+        0.08858859539031982,
+        0.17516551911830902
+      ]
+    ],
     "phrases": [
       "human face"
     ],
     "scores": [
       0.483
     ],
-    "inference_time_sec": 4.55
+    "inference_time_sec": 3.628
   },
   {
     "image": "pexels-moh-adbelghaffar-36986671.jpg",
@@ -36,8 +52,9 @@
     "box_threshold": 0.45,
     "text_threshold": 0.3,
     "num_boxes": 0,
+    "boxes": [],
     "phrases": [],
     "scores": [],
-    "inference_time_sec": 4.348
+    "inference_time_sec": 3.455
   }
 ]

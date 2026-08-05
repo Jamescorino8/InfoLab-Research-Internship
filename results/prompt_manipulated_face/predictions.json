@@ -6,6 +6,26 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 3,
+    "boxes": [
+      [
+        0.8643359541893005,
+        0.6687783002853394,
+        0.1835387945175171,
+        0.3679633140563965
+      ],
+      [
+        0.6028903722763062,
+        0.5539153218269348,
+        0.08696333318948746,
+        0.15945756435394287
+      ],
+      [
+        0.24486126005649567,
+        0.5039726495742798,
+        0.09199969470500946,
+        0.1785731464624405
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face",
@@ -16,7 +36,7 @@
       0.39,
       0.387
     ],
-    "inference_time_sec": 3.786
+    "inference_time_sec": 4.036
   },
   {
     "image": "multiple/simi-iluyomade-tvbxqXI5mmo-unsplash.jpg",
@@ -25,6 +45,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.6293289065361023,
+        0.4896063208580017,
+        0.2101665884256363,
+        0.12117970734834671
+      ],
+      [
+        0.6153386831283569,
+        0.34217557311058044,
+        0.162433922290802,
+        0.11475823819637299
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face"
@@ -33,7 +67,7 @@
       0.431,
       0.37
     ],
-    "inference_time_sec": 3.384
+    "inference_time_sec": 3.961
   },
   {
     "image": "multiple/tim-mossholder-hOF1bWoet_Q-unsplash.jpg",
@@ -42,6 +76,38 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 5,
+    "boxes": [
+      [
+        0.7363901734352112,
+        0.5315188765525818,
+        0.11356005072593689,
+        0.20706681907176971
+      ],
+      [
+        0.3634151220321655,
+        0.4424072504043579,
+        0.10093778371810913,
+        0.19706591963768005
+      ],
+      [
+        0.5809239149093628,
+        0.5549913644790649,
+        0.10322893410921097,
+        0.20034244656562805
+      ],
+      [
+        0.2619814872741699,
+        0.1812974512577057,
+        0.09900642186403275,
+        0.16243265569210052
+      ],
+      [
+        0.4764143228530884,
+        0.4016065299510956,
+        0.08099137246608734,
+        0.13040080666542053
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face",
@@ -56,7 +122,7 @@
       0.492,
       0.477
     ],
-    "inference_time_sec": 3.149
+    "inference_time_sec": 4.299
   },
   {
     "image": "multiple/windows-p74ndnYWRY4-unsplash.jpg",
@@ -65,6 +131,44 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 6,
+    "boxes": [
+      [
+        0.4132693111896515,
+        0.4337015151977539,
+        0.08692784607410431,
+        0.1781395673751831
+      ],
+      [
+        0.5700012445449829,
+        0.26289352774620056,
+        0.06758134067058563,
+        0.14517149329185486
+      ],
+      [
+        0.23784302175045013,
+        0.2823792099952698,
+        0.08224764466285706,
+        0.2002732753753662
+      ],
+      [
+        0.7739492654800415,
+        0.4376976191997528,
+        0.10691038519144058,
+        0.2274438589811325
+      ],
+      [
+        0.45484158396720886,
+        0.25678691267967224,
+        0.07445700466632843,
+        0.14575806260108948
+      ],
+      [
+        0.7821634411811829,
+        0.20783759653568268,
+        0.07699961960315704,
+        0.14972393214702606
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face",
@@ -81,7 +185,7 @@
       0.412,
       0.35
     ],
-    "inference_time_sec": 3.14
+    "inference_time_sec": 3.683
   },
   {
     "image": "occluded/pexels-alan-fikz-2043851-3680657.jpg",
@@ -90,6 +194,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.4852348566055298,
+        0.5044187307357788,
+        0.476095587015152,
+        0.2973557412624359
+      ],
+      [
+        0.47621700167655945,
+        0.4280482232570648,
+        0.5691648721694946,
+        0.4732235074043274
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "face"
@@ -98,7 +216,7 @@
       0.487,
       0.382
     ],
-    "inference_time_sec": 3.342
+    "inference_time_sec": 3.373
   },
   {
     "image": "occluded/pexels-celine-3776818-11430254.jpg",
@@ -107,13 +225,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5878776907920837,
+        0.4055970311164856,
+        0.5123022198677063,
+        0.42209330201148987
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.76
     ],
-    "inference_time_sec": 3.328
+    "inference_time_sec": 3.336
   },
   {
     "image": "profile/pexels-angela-roma-7480302.jpg",
@@ -122,13 +248,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5550938844680786,
+        0.553704023361206,
+        0.5681182146072388,
+        0.5777440071105957
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.449
     ],
-    "inference_time_sec": 3.148
+    "inference_time_sec": 4.681
   },
   {
     "image": "profile/pexels-augi-1038166.jpg",
@@ -137,13 +271,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.6768317818641663,
+        0.49838149547576904,
+        0.29055649042129517,
+        0.8131362795829773
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.594
     ],
-    "inference_time_sec": 3.135
+    "inference_time_sec": 3.785
   },
   {
     "image": "profile/pexels-edotommo99-6628908.jpg",
@@ -152,13 +294,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5089429616928101,
+        0.43280744552612305,
+        0.3812595307826996,
+        0.5217864513397217
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.691
     ],
-    "inference_time_sec": 2.956
+    "inference_time_sec": 3.199
   },
   {
     "image": "profile/pexels-moh-adbelghaffar-36986671.jpg",
@@ -167,6 +317,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.5293756723403931,
+        0.3760194778442383,
+        0.652956485748291,
+        0.5096315741539001
+      ],
+      [
+        0.6852639317512512,
+        0.41871514916419983,
+        0.3405953645706177,
+        0.4144582152366638
+      ]
+    ],
     "phrases": [
       "face",
       "face"
@@ -175,7 +339,7 @@
       0.411,
       0.376
     ],
-    "inference_time_sec": 3.077
+    "inference_time_sec": 3.085
   },
   {
     "image": "profile/pexels-soc-nang-d-ng-2150345854-36248259.jpg",
@@ -184,13 +348,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.36117544770240784,
+        0.5218933820724487,
+        0.7180099487304688,
+        0.7064245939254761
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.708
     ],
-    "inference_time_sec": 3.107
+    "inference_time_sec": 3.606
   },
   {
     "image": "single/lfw_00.jpg",
@@ -199,13 +371,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.50440913438797,
+        0.5064699649810791,
+        0.3953675925731659,
+        0.4550732970237732
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.72
     ],
-    "inference_time_sec": 1.978
+    "inference_time_sec": 2.267
   },
   {
     "image": "single/lfw_01.jpg",
@@ -214,13 +394,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.4573582410812378,
+        0.5030013918876648,
+        0.44329965114593506,
+        0.5978695154190063
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.593
     ],
-    "inference_time_sec": 1.968
+    "inference_time_sec": 2.263
   },
   {
     "image": "single/lfw_02.jpg",
@@ -229,13 +417,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5184138417243958,
+        0.5015066862106323,
+        0.4188825786113739,
+        0.5231034159660339
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.628
     ],
-    "inference_time_sec": 1.959
+    "inference_time_sec": 2.175
   },
   {
     "image": "single/lfw_03.jpg",
@@ -244,13 +440,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.506147027015686,
+        0.47725194692611694,
+        0.38368716835975647,
+        0.49346697330474854
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.696
     ],
-    "inference_time_sec": 2.027
+    "inference_time_sec": 2.212
   },
   {
     "image": "single/lfw_04.jpg",
@@ -259,13 +463,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.4575084149837494,
+        0.528708815574646,
+        0.47328662872314453,
+        0.6638253331184387
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.546
     ],
-    "inference_time_sec": 2.029
+    "inference_time_sec": 2.246
   },
   {
     "image": "single/lfw_05.jpg",
@@ -274,13 +486,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.4798808991909027,
+        0.46462225914001465,
+        0.4121417701244354,
+        0.6041877269744873
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.669
     ],
-    "inference_time_sec": 2.041
+    "inference_time_sec": 2.332
   },
   {
     "image": "single/lfw_06.jpg",
@@ -289,6 +509,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.4963649809360504,
+        0.4799816608428955,
+        0.4020982086658478,
+        0.5483792424201965
+      ],
+      [
+        0.04587060585618019,
+        0.49905383586883545,
+        0.09175968170166016,
+        0.3443262279033661
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face"
@@ -297,7 +531,7 @@
       0.56,
       0.432
     ],
-    "inference_time_sec": 1.992
+    "inference_time_sec": 2.354
   },
   {
     "image": "single/lfw_07.jpg",
@@ -306,13 +540,21 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 1,
+    "boxes": [
+      [
+        0.5128078460693359,
+        0.5002511739730835,
+        0.372646301984787,
+        0.5348076224327087
+      ]
+    ],
     "phrases": [
       "manipulated face"
     ],
     "scores": [
       0.764
     ],
-    "inference_time_sec": 2.007
+    "inference_time_sec": 2.867
   },
   {
     "image": "single/lfw_08.jpg",
@@ -321,6 +563,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.03141022101044655,
+        0.494922935962677,
+        0.06276162713766098,
+        0.5788828730583191
+      ],
+      [
+        0.8028802275657654,
+        0.3370435833930969,
+        0.3562992811203003,
+        0.44439369440078735
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face"
@@ -329,7 +585,7 @@
       0.467,
       0.382
     ],
-    "inference_time_sec": 1.985
+    "inference_time_sec": 2.482
   },
   {
     "image": "single/lfw_09.jpg",
@@ -338,6 +594,20 @@
     "box_threshold": 0.35,
     "text_threshold": 0.25,
     "num_boxes": 2,
+    "boxes": [
+      [
+        0.5189573168754578,
+        0.5022324323654175,
+        0.3698612153530121,
+        0.5478949546813965
+      ],
+      [
+        0.06591270118951797,
+        0.6212366223335266,
+        0.13199427723884583,
+        0.4865061640739441
+      ]
+    ],
     "phrases": [
       "manipulated face",
       "manipulated face"
@@ -346,6 +616,6 @@
       0.663,
       0.583
     ],
-    "inference_time_sec": 2.006
+    "inference_time_sec": 2.554
   }
 ]

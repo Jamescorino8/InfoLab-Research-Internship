@@ -64,6 +64,7 @@ def main():
             "box_threshold": args.box_threshold,
             "text_threshold": args.text_threshold,
             "num_boxes": len(boxes),
+            "boxes": boxes.tolist(),
             "phrases": phrases,
             "scores": [round(float(l), 3) for l in logits],
             "inference_time_sec": round(elapsed, 3),
