@@ -184,7 +184,3 @@ Each `DayXX/log.md` follows this template:
 ## Planned next steps
 -
 ```
-
-## Weekly Progress Reports
-
-A brief weekly progress report is prepared before each supervisor meeting, covering tasks completed, experimental results/code updates, problems or unsuccessful attempts, plans for the following week, and any support/resources required. These live in `Reports/`.
