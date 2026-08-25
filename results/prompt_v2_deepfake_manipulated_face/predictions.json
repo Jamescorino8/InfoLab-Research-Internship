@@ -1,0 +1,291 @@
+[
+  {
+    "image": "kaggle_fake_0.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49163171648979187,
+        0.4951753318309784,
+        0.33404022455215454,
+        0.5151690244674683
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.79
+    ],
+    "inference_time_sec": 2.964
+  },
+  {
+    "image": "kaggle_fake_1.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49392786622047424,
+        0.49886947870254517,
+        0.3445737063884735,
+        0.5341095328330994
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.799
+    ],
+    "inference_time_sec": 2.77
+  },
+  {
+    "image": "kaggle_fake_10.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5054417848587036,
+        0.4716506004333496,
+        0.4002796709537506,
+        0.5615333318710327
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.789
+    ],
+    "inference_time_sec": 2.838
+  },
+  {
+    "image": "kaggle_fake_100.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49613624811172485,
+        0.5091738104820251,
+        0.4991600811481476,
+        0.48721247911453247
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.724
+    ],
+    "inference_time_sec": 2.754
+  },
+  {
+    "image": "kaggle_fake_1000.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49888575077056885,
+        0.39006054401397705,
+        0.5772728323936462,
+        0.7775976061820984
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.703
+    ],
+    "inference_time_sec": 2.639
+  },
+  {
+    "image": "kaggle_fake_1001.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.48854517936706543,
+        0.4094208776950836,
+        0.5699142217636108,
+        0.7302647829055786
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.441
+    ],
+    "inference_time_sec": 2.632
+  },
+  {
+    "image": "kaggle_fake_101.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5000452399253845,
+        0.5001453161239624,
+        0.9999995231628418,
+        0.9999958276748657
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.609
+    ],
+    "inference_time_sec": 2.664
+  },
+  {
+    "image": "kaggle_fake_11.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 0,
+    "boxes": [],
+    "phrases": [],
+    "scores": [],
+    "inference_time_sec": 2.62
+  },
+  {
+    "image": "kaggle_fake_12.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.4968789219856262,
+        0.48183074593544006,
+        0.4028879404067993,
+        0.534442663192749
+      ],
+      [
+        0.9672428369522095,
+        0.5506117939949036,
+        0.0657581239938736,
+        0.4331352412700653
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.64,
+      0.558
+    ],
+    "inference_time_sec": 3.43
+  },
+  {
+    "image": "kaggle_fake_13.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5071593523025513,
+        0.4954361617565155,
+        0.398924857378006,
+        0.5019641518592834
+      ],
+      [
+        0.03608199208974838,
+        0.3626813292503357,
+        0.07218282669782639,
+        0.4200878441333771
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.694,
+      0.607
+    ],
+    "inference_time_sec": 3.068
+  },
+  {
+    "image": "kaggle_fake_14.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5010305643081665,
+        0.48845982551574707,
+        0.40169191360473633,
+        0.5222567915916443
+      ],
+      [
+        0.9196557998657227,
+        0.22444117069244385,
+        0.16081257164478302,
+        0.4489435851573944
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.505,
+      0.372
+    ],
+    "inference_time_sec": 3.062
+  },
+  {
+    "image": "kaggle_fake_2.jpg",
+    "category": "deepfake",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4718720018863678,
+        0.3988480567932129,
+        0.47693291306495667,
+        0.6205706000328064
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.526
+    ],
+    "inference_time_sec": 3.061
+  }
+]

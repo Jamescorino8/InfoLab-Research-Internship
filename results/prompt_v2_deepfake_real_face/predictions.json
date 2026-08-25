@@ -1,0 +1,302 @@
+[
+  {
+    "image": "kaggle_fake_0.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49209076166152954,
+        0.4960256814956665,
+        0.3274913728237152,
+        0.5125378370285034
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.858
+    ],
+    "inference_time_sec": 3.015
+  },
+  {
+    "image": "kaggle_fake_1.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49266818165779114,
+        0.4984896779060364,
+        0.3391138017177582,
+        0.5319231748580933
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.829
+    ],
+    "inference_time_sec": 2.938
+  },
+  {
+    "image": "kaggle_fake_10.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5059031844139099,
+        0.4731981158256531,
+        0.39633747935295105,
+        0.5571005344390869
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.814
+    ],
+    "inference_time_sec": 2.769
+  },
+  {
+    "image": "kaggle_fake_100.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4967779219150543,
+        0.5097163319587708,
+        0.4865838289260864,
+        0.4841463267803192
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.794
+    ],
+    "inference_time_sec": 2.695
+  },
+  {
+    "image": "kaggle_fake_1000.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4991845190525055,
+        0.39021486043930054,
+        0.5637275576591492,
+        0.7752526998519897
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.809
+    ],
+    "inference_time_sec": 2.664
+  },
+  {
+    "image": "kaggle_fake_1001.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4888465106487274,
+        0.41066697239875793,
+        0.5612803101539612,
+        0.7267175316810608
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.464
+    ],
+    "inference_time_sec": 2.668
+  },
+  {
+    "image": "kaggle_fake_101.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5000831484794617,
+        0.5001129508018494,
+        0.9999997615814209,
+        0.9999966621398926
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.722
+    ],
+    "inference_time_sec": 2.645
+  },
+  {
+    "image": "kaggle_fake_11.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4143223762512207,
+        0.4158373475074768,
+        0.6187703013420105,
+        0.8289599418640137
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.445
+    ],
+    "inference_time_sec": 2.846
+  },
+  {
+    "image": "kaggle_fake_12.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.49635159969329834,
+        0.48533979058265686,
+        0.3980652689933777,
+        0.5266028642654419
+      ],
+      [
+        0.9679654240608215,
+        0.5555589199066162,
+        0.06427009403705597,
+        0.4195464551448822
+      ]
+    ],
+    "phrases": [
+      "real face",
+      "real face"
+    ],
+    "scores": [
+      0.724,
+      0.615
+    ],
+    "inference_time_sec": 3.186
+  },
+  {
+    "image": "kaggle_fake_13.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.506096363067627,
+        0.49705368280410767,
+        0.39257165789604187,
+        0.5003086924552917
+      ],
+      [
+        0.032902803272008896,
+        0.36593741178512573,
+        0.06584898382425308,
+        0.4076389670372009
+      ]
+    ],
+    "phrases": [
+      "real face",
+      "real face"
+    ],
+    "scores": [
+      0.701,
+      0.666
+    ],
+    "inference_time_sec": 3.148
+  },
+  {
+    "image": "kaggle_fake_14.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5012326836585999,
+        0.49143433570861816,
+        0.3939140737056732,
+        0.5156620740890503
+      ],
+      [
+        0.9214547276496887,
+        0.22336594760417938,
+        0.15715795755386353,
+        0.44656169414520264
+      ]
+    ],
+    "phrases": [
+      "real face",
+      "real face"
+    ],
+    "scores": [
+      0.605,
+      0.471
+    ],
+    "inference_time_sec": 3.068
+  },
+  {
+    "image": "kaggle_fake_2.jpg",
+    "category": "deepfake",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.47086644172668457,
+        0.40100035071372986,
+        0.4653041362762451,
+        0.6162563562393188
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.72
+    ],
+    "inference_time_sec": 3.09
+  }
+]

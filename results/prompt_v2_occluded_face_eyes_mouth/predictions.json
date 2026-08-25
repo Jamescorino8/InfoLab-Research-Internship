@@ -1,0 +1,243 @@
+[
+  {
+    "image": "eduard-delputte-fE4_beyE1NU-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 4,
+    "boxes": [
+      [
+        0.5054842829704285,
+        0.3974566161632538,
+        0.2428196519613266,
+        0.24725906550884247
+      ],
+      [
+        0.5545548796653748,
+        0.41988661885261536,
+        0.04983187094330788,
+        0.04075908660888672
+      ],
+      [
+        0.44730034470558167,
+        0.42172178626060486,
+        0.055260755121707916,
+        0.0412527471780777
+      ],
+      [
+        0.49991774559020996,
+        0.4198681116104126,
+        0.1638418585062027,
+        0.05281321331858635
+      ]
+    ],
+    "phrases": [
+      "face",
+      "eyes",
+      "eyes",
+      "eyes"
+    ],
+    "scores": [
+      0.535,
+      0.389,
+      0.374,
+      0.434
+    ],
+    "inference_time_sec": 4.091
+  },
+  {
+    "image": "felipe-S1sY0zDDxPA-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "boxes": [
+      [
+        0.503782331943512,
+        0.37241026759147644,
+        0.2795962989330292,
+        0.6114664077758789
+      ],
+      [
+        0.5075637102127075,
+        0.3912760615348816,
+        0.20765911042690277,
+        0.08656178414821625
+      ],
+      [
+        0.44733211398124695,
+        0.39760732650756836,
+        0.08492032438516617,
+        0.07235272973775864
+      ],
+      [
+        0.5097764134407043,
+        0.5949258804321289,
+        0.09731738269329071,
+        0.060620397329330444
+      ],
+      [
+        0.5710614919662476,
+        0.3887005150318146,
+        0.07912081480026245,
+        0.07959604263305664
+      ]
+    ],
+    "phrases": [
+      "face",
+      "eyes",
+      "eyes",
+      "mouth",
+      "eyes"
+    ],
+    "scores": [
+      0.759,
+      0.524,
+      0.352,
+      0.386,
+      0.372
+    ],
+    "inference_time_sec": 4.939
+  },
+  {
+    "image": "laura-chouette-AlQVT9GQF90-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5086907744407654,
+        0.32427650690078735,
+        0.3263469338417053,
+        0.3504371643066406
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.531
+    ],
+    "inference_time_sec": 4.443
+  },
+  {
+    "image": "pexels-alan-fikz-2043851-3680657.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4798782765865326,
+        0.5094506144523621,
+        0.44736865162849426,
+        0.27688491344451904
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.512
+    ],
+    "inference_time_sec": 5.107
+  },
+  {
+    "image": "pexels-celine-3776818-11430254.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5873631834983826,
+        0.407184362411499,
+        0.5036243796348572,
+        0.4189460575580597
+      ],
+      [
+        0.46694883704185486,
+        0.39739131927490234,
+        0.18033647537231445,
+        0.07402539253234863
+      ]
+    ],
+    "phrases": [
+      "face",
+      "eyes"
+    ],
+    "scores": [
+      0.698,
+      0.389
+    ],
+    "inference_time_sec": 5.377
+  },
+  {
+    "image": "tope-a-asokere-Zpg6CbtkvAE-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.39303675293922424,
+        0.355459064245224,
+        0.03549175709486008,
+        0.04143380746245384
+      ],
+      [
+        0.41069790720939636,
+        0.34387409687042236,
+        0.1176372766494751,
+        0.17188610136508942
+      ]
+    ],
+    "phrases": [
+      "mouth",
+      "face"
+    ],
+    "scores": [
+      0.691,
+      0.403
+    ],
+    "inference_time_sec": 4.422
+  },
+  {
+    "image": "yogesh-rahamatkar-XA4CmqJOxN8-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.6399462223052979,
+        0.5689585208892822,
+        0.05900062620639801,
+        0.12346257269382477
+      ],
+      [
+        0.6366275548934937,
+        0.5855831503868103,
+        0.03351249173283577,
+        0.022125372663140297
+      ]
+    ],
+    "phrases": [
+      "face",
+      "mouth"
+    ],
+    "scores": [
+      0.392,
+      0.562
+    ],
+    "inference_time_sec": 5.462
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "image": "thumb_multiple_01.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.735784113407135,
+        0.5374822616577148,
+        0.10165341198444366,
+        0.20193228125572205
+      ],
+      [
+        0.36367523670196533,
+        0.44568565487861633,
+        0.0937809869647026,
+        0.19170226156711578
+      ],
+      [
+        0.5780975222587585,
+        0.5634778141975403,
+        0.09183338284492493,
+        0.19725896418094635
+      ]
+    ],
+    "phrases": [
+      "face",
+      "face",
+      "face"
+    ],
+    "scores": [
+      0.426,
+      0.437,
+      0.41
+    ],
+    "inference_time_sec": 4.706
+  },
+  {
+    "image": "thumb_multiple_02.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.4128720164299011,
+        0.4360659122467041,
+        0.07981660962104797,
+        0.17627422511577606
+      ],
+      [
+        0.7726919651031494,
+        0.43709325790405273,
+        0.09913571178913116,
+        0.22160165011882782
+      ]
+    ],
+    "phrases": [
+      "face",
+      "face"
+    ],
+    "scores": [
+      0.357,
+      0.362
+    ],
+    "inference_time_sec": 4.602
+  },
+  {
+    "image": "thumb_occluded.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.6140854954719543,
+        0.4050815999507904,
+        0.4849609434604645,
+        0.40694621205329895
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.362
+    ],
+    "inference_time_sec": 4.515
+  },
+  {
+    "image": "thumb_profile.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5557675361633301,
+        0.5557158589363098,
+        0.5759607553482056,
+        0.5656601190567017
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.526
+    ],
+    "inference_time_sec": 5.457
+  },
+  {
+    "image": "thumb_single_lfw00.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.505266547203064,
+        0.5130472779273987,
+        0.3721853196620941,
+        0.44503751397132874
+      ],
+      [
+        0.5081934332847595,
+        0.44158828258514404,
+        0.24910414218902588,
+        0.07825960218906403
+      ],
+      [
+        0.48383915424346924,
+        0.6442360877990723,
+        0.1201249361038208,
+        0.045482903718948364
+      ]
+    ],
+    "phrases": [
+      "face",
+      "eyes",
+      "mouth"
+    ],
+    "scores": [
+      0.704,
+      0.533,
+      0.361
+    ],
+    "inference_time_sec": 4.595
+  },
+  {
+    "image": "thumb_single_lfw03.jpg",
+    "category": "small_lowres",
+    "prompt": "face . eyes . mouth",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5095904469490051,
+        0.44063055515289307,
+        0.32872000336647034,
+        0.11460302770137787
+      ],
+      [
+        0.5112287402153015,
+        0.4673992991447449,
+        0.3681982159614563,
+        0.47331270575523376
+      ]
+    ],
+    "phrases": [
+      "eyes",
+      "face"
+    ],
+    "scores": [
+      0.534,
+      0.555
+    ],
+    "inference_time_sec": 3.617
+  }
+]

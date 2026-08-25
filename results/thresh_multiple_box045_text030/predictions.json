@@ -1,0 +1,178 @@
+[
+  {
+    "image": "neelakshi-singh-fT7TgUqIf4Y-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 0,
+    "boxes": [],
+    "phrases": [],
+    "scores": [],
+    "inference_time_sec": 4.849
+  },
+  {
+    "image": "nicholas-green-nPz8akkUmDI-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.24444738030433655,
+        0.5050361752510071,
+        0.08858859539031982,
+        0.17516551911830902
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.483
+    ],
+    "inference_time_sec": 7.27
+  },
+  {
+    "image": "simi-iluyomade-tvbxqXI5mmo-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.6154780983924866,
+        0.33766236901283264,
+        0.15403294563293457,
+        0.10235337167978287
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.455
+    ],
+    "inference_time_sec": 8.599
+  },
+  {
+    "image": "tim-mossholder-hOF1bWoet_Q-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 5,
+    "boxes": [
+      [
+        0.3636972904205322,
+        0.44290611147880554,
+        0.09771407395601273,
+        0.19412055611610413
+      ],
+      [
+        0.5804715752601624,
+        0.5549721121788025,
+        0.1009441465139389,
+        0.19746091961860657
+      ],
+      [
+        0.7363259792327881,
+        0.5320926308631897,
+        0.1106858029961586,
+        0.2060873955488205
+      ],
+      [
+        0.2613951563835144,
+        0.18175239861011505,
+        0.09264333546161652,
+        0.15956977009773254
+      ],
+      [
+        0.4759775698184967,
+        0.40262699127197266,
+        0.07899997383356094,
+        0.12553350627422333
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.661,
+      0.701,
+      0.711,
+      0.585,
+      0.594
+    ],
+    "inference_time_sec": 6.287
+  },
+  {
+    "image": "windows-p74ndnYWRY4-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 6,
+    "boxes": [
+      [
+        0.4129010736942291,
+        0.4342927634716034,
+        0.07921408116817474,
+        0.17381297051906586
+      ],
+      [
+        0.2384406477212906,
+        0.28346505761146545,
+        0.07859954982995987,
+        0.19566704332828522
+      ],
+      [
+        0.5700337886810303,
+        0.26371508836746216,
+        0.06516901403665543,
+        0.14177559316158295
+      ],
+      [
+        0.45461001992225647,
+        0.2579159140586853,
+        0.07198474556207657,
+        0.14145416021347046
+      ],
+      [
+        0.7726402878761292,
+        0.437811940908432,
+        0.10304641723632812,
+        0.22377780079841614
+      ],
+      [
+        0.7819583415985107,
+        0.20860932767391205,
+        0.07315647602081299,
+        0.1452266424894333
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.583,
+      0.562,
+      0.553,
+      0.55,
+      0.497,
+      0.456
+    ],
+    "inference_time_sec": 7.99
+  }
+]

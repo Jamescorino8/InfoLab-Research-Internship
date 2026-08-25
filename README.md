@@ -30,19 +30,23 @@ Each working day gets its own folder containing that day's materials (papers, no
 ├── data/                    # test images, organized by category
 │   └── subsets_for_thresholds/  # hand-picked image subset used for the Task D threshold sweep (not a primary category)
 ├── results/                 # annotated images + prediction files (JSON/CSV)
-└── Reports/                 # weekly progress reports, short report, presentation
+└── reports/                 # weekly progress reports, short report, presentation
 ```
 
 ## Test Image Set
 
-A curated set of 21 images spans four categories under `data/`:
+Categories under `data/`, as of the response to Tamer's Aug 2026 feedback (expanding the thin `occluded`/`multiple` categories and adding the previously-missing `small_lowres` and `deepfake` conditions):
 
-| Category | Folder | Count |
-|---|---|---|
-| Multiple faces | `data/multiple/` | 4 |
-| Occluded / blurred face | `data/occluded/` | 2 |
-| Profile / angled face | `data/profile/` | 5 |
-| Single frontal face | `data/single/` | 10 |
+| Category | Folder | Count | Status |
+|---|---|---|---|
+| Single frontal face | `data/single/` | 10 | done |
+| Profile / angled face | `data/profile/` | 5 | done |
+| Multiple faces | `data/multiple/` | 5 | done |
+| Occluded / blurred face | `data/occluded/` | 7 | done |
+| Small / low-resolution face | `data/small_lowres/` | 6 | done |
+| Deepfake sample (placeholder) | `data/deepfake/` | 12 | done — Kaggle placeholder, see Dataset Access Status below |
+
+`multiple` was expanded from 4 → 5 (one new dense crowd scene added — see Results below) rather than the original ~7 target; the new image alone was informative enough (see the threshold-sensitivity discussion) that further expansion wasn't pursued this round.
 
 Sourcing: `single` images are pulled from the `logasja/lfw` dataset on Hugging Face via the `datasets` library:
 
@@ -56,7 +60,21 @@ for i in range(10):
 "
 ```
 
-`multiple`, `occluded`, and `profile` images are stock photos from Unsplash/Pexels. Deepfake dataset frames (`data/deepfake/`) are planned but not yet implemented, as access to FaceForensics++ has been requested but not yet granted.
+`multiple`, `occluded`, and `profile` images are stock photos from Unsplash/Pexels.
+
+`small_lowres` images are thumbnail-resolution downscaled copies of already-curated photos from `single`/`profile`/`occluded`/`multiple` (long edge 32–90px), generated with `src/make_small_lowres.py`, to specifically test detection reliability under thumbnail/distant-camera resolution — a condition the original 21-image set didn't cover.
+
+### Dataset Access Status (deepfake condition)
+
+Three routes are being pursued in parallel for genuine manipulated-media frames, none granted yet as of this update:
+
+| Dataset | Access | Status |
+|---|---|---|
+| FaceForensics++ | Request form | Pending (originally requested; follow-up sent) |
+| RWDF-23 (DASH Lab) | Google Form | Requested |
+| FakeAVCeleb (DASH Lab) | Google Form + license agreement | Requested |
+
+In the meantime, `data/deepfake/` holds 12 images from the `Test/Fake` split of the [manjilkarki/deepfake-and-real-images](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images) Kaggle dataset (free account, no approval wait) as a clearly-labeled **substitute pending approval** — not a forensic-quality dataset, exploratory only, same caveat as the "real face"/"manipulated face" prompts below.
 
 ## Environment
 
@@ -128,6 +146,14 @@ python src/batch_inference.py \
 Outputs: annotated images → `<path-to-output>/images/`, predictions (boxes, labels, confidence scores) → `<path-to-output>/predictions.json`, with per-image inference time logged.
 
 This repo's `results/` folder contains the actual output from the experiments documented in Day05/log.md — e.g. `results/prompt_human_face/`, `results/thresh_box025_text020/`.
+
+### Generating the small_lowres category
+
+```bash
+python src/make_small_lowres.py
+```
+
+Re-derives `data/small_lowres/` from the existing curated photos (see script for the exact source/size mapping).
 
 ### Summarizing results
 

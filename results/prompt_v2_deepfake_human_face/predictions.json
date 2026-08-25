@@ -1,0 +1,310 @@
+[
+  {
+    "image": "kaggle_fake_0.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4923256039619446,
+        0.4967416822910309,
+        0.3254813253879547,
+        0.5108523964881897
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.833
+    ],
+    "inference_time_sec": 4.464
+  },
+  {
+    "image": "kaggle_fake_1.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49245959520339966,
+        0.498514324426651,
+        0.3370877802371979,
+        0.530136227607727
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.81
+    ],
+    "inference_time_sec": 5.021
+  },
+  {
+    "image": "kaggle_fake_10.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5062752366065979,
+        0.474633127450943,
+        0.3944224417209625,
+        0.5549662113189697
+      ],
+      [
+        0.09643661230802536,
+        0.6961382627487183,
+        0.1565854251384735,
+        0.2870928645133972
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.771,
+      0.374
+    ],
+    "inference_time_sec": 5.493
+  },
+  {
+    "image": "kaggle_fake_100.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4970156252384186,
+        0.5104385614395142,
+        0.48303455114364624,
+        0.4818814694881439
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.758
+    ],
+    "inference_time_sec": 6.017
+  },
+  {
+    "image": "kaggle_fake_1000.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.49788740277290344,
+        0.3913136124610901,
+        0.5592969655990601,
+        0.7726433873176575
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.792
+    ],
+    "inference_time_sec": 3.916
+  },
+  {
+    "image": "kaggle_fake_1001.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4886535406112671,
+        0.4109952449798584,
+        0.552270233631134,
+        0.7196261286735535
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.457
+    ],
+    "inference_time_sec": 3.709
+  },
+  {
+    "image": "kaggle_fake_101.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5000506639480591,
+        0.5000699162483215,
+        0.9999996423721313,
+        0.9999972581863403
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.749
+    ],
+    "inference_time_sec": 5.638
+  },
+  {
+    "image": "kaggle_fake_11.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.40933361649513245,
+        0.41893428564071655,
+        0.6037570834159851,
+        0.8331765532493591
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.491
+    ],
+    "inference_time_sec": 4.568
+  },
+  {
+    "image": "kaggle_fake_12.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.4951348304748535,
+        0.48731446266174316,
+        0.39811164140701294,
+        0.5228224396705627
+      ],
+      [
+        0.9686065316200256,
+        0.5584349036216736,
+        0.0629827231168747,
+        0.41293248534202576
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.659,
+      0.581
+    ],
+    "inference_time_sec": 4.769
+  },
+  {
+    "image": "kaggle_fake_13.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.03171016275882721,
+        0.36702340841293335,
+        0.06344914436340332,
+        0.40229350328445435
+      ],
+      [
+        0.5064007043838501,
+        0.4986412525177002,
+        0.39011138677597046,
+        0.49989941716194153
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.633,
+      0.585
+    ],
+    "inference_time_sec": 4.538
+  },
+  {
+    "image": "kaggle_fake_14.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.5016366839408875,
+        0.4933632016181946,
+        0.3907873332500458,
+        0.5112673044204712
+      ],
+      [
+        0.922677755355835,
+        0.22262315452098846,
+        0.15477578341960907,
+        0.44457730650901794
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.598,
+      0.448
+    ],
+    "inference_time_sec": 3.947
+  },
+  {
+    "image": "kaggle_fake_2.jpg",
+    "category": "deepfake",
+    "prompt": "human face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.46997252106666565,
+        0.40336260199546814,
+        0.459314227104187,
+        0.6121075749397278
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.708
+    ],
+    "inference_time_sec": 4.0
+  }
+]

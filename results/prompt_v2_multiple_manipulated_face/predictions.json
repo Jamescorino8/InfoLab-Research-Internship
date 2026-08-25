@@ -1,0 +1,213 @@
+[
+  {
+    "image": "neelakshi-singh-fT7TgUqIf4Y-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.500159740447998,
+        0.49917760491371155,
+        0.9971202611923218,
+        0.9922687411308289
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.44
+    ],
+    "inference_time_sec": 4.534
+  },
+  {
+    "image": "nicholas-green-nPz8akkUmDI-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.8643359541893005,
+        0.6687783002853394,
+        0.1835387945175171,
+        0.3679633140563965
+      ],
+      [
+        0.6028903722763062,
+        0.5539153218269348,
+        0.08696333318948746,
+        0.15945756435394287
+      ],
+      [
+        0.24486126005649567,
+        0.5039726495742798,
+        0.09199969470500946,
+        0.1785731464624405
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.426,
+      0.39,
+      0.387
+    ],
+    "inference_time_sec": 4.732
+  },
+  {
+    "image": "simi-iluyomade-tvbxqXI5mmo-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 2,
+    "boxes": [
+      [
+        0.6293289065361023,
+        0.4896063208580017,
+        0.2101665884256363,
+        0.12117970734834671
+      ],
+      [
+        0.6153386831283569,
+        0.34217557311058044,
+        0.162433922290802,
+        0.11475823819637299
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.431,
+      0.37
+    ],
+    "inference_time_sec": 4.301
+  },
+  {
+    "image": "tim-mossholder-hOF1bWoet_Q-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "boxes": [
+      [
+        0.7363901734352112,
+        0.5315188765525818,
+        0.11356005072593689,
+        0.20706681907176971
+      ],
+      [
+        0.3634151220321655,
+        0.4424072504043579,
+        0.10093778371810913,
+        0.19706591963768005
+      ],
+      [
+        0.5809239149093628,
+        0.5549913644790649,
+        0.10322893410921097,
+        0.20034244656562805
+      ],
+      [
+        0.2619814872741699,
+        0.1812974512577057,
+        0.09900642186403275,
+        0.16243265569210052
+      ],
+      [
+        0.4764143228530884,
+        0.4016065299510956,
+        0.08099137246608734,
+        0.13040080666542053
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.608,
+      0.59,
+      0.593,
+      0.492,
+      0.477
+    ],
+    "inference_time_sec": 4.218
+  },
+  {
+    "image": "windows-p74ndnYWRY4-unsplash.jpg",
+    "category": "multiple",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 6,
+    "boxes": [
+      [
+        0.4132693111896515,
+        0.4337015151977539,
+        0.08692784607410431,
+        0.1781395673751831
+      ],
+      [
+        0.5700012445449829,
+        0.26289352774620056,
+        0.06758134067058563,
+        0.14517149329185486
+      ],
+      [
+        0.23784302175045013,
+        0.2823792099952698,
+        0.08224764466285706,
+        0.2002732753753662
+      ],
+      [
+        0.7739492654800415,
+        0.4376976191997528,
+        0.10691038519144058,
+        0.2274438589811325
+      ],
+      [
+        0.45484158396720886,
+        0.25678691267967224,
+        0.07445700466632843,
+        0.14575806260108948
+      ],
+      [
+        0.7821634411811829,
+        0.20783759653568268,
+        0.07699961960315704,
+        0.14972393214702606
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.451,
+      0.423,
+      0.426,
+      0.425,
+      0.412,
+      0.35
+    ],
+    "inference_time_sec": 5.264
+  }
+]

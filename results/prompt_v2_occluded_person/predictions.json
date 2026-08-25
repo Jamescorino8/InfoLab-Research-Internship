@@ -1,0 +1,179 @@
+[
+  {
+    "image": "eduard-delputte-fE4_beyE1NU-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5134468674659729,
+        0.5963268280029297,
+        0.8816707730293274,
+        0.8047205805778503
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.611
+    ],
+    "inference_time_sec": 4.173
+  },
+  {
+    "image": "felipe-S1sY0zDDxPA-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5806591510772705,
+        0.5122792720794678,
+        0.6715337038040161,
+        0.9716842174530029
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.894
+    ],
+    "inference_time_sec": 5.633
+  },
+  {
+    "image": "laura-chouette-AlQVT9GQF90-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5003172755241394,
+        0.5556344985961914,
+        0.9949711561203003,
+        0.8857709765434265
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.9
+    ],
+    "inference_time_sec": 5.42
+  },
+  {
+    "image": "pexels-alan-fikz-2043851-3680657.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5000857710838318,
+        0.5932794809341431,
+        0.9970188140869141,
+        0.8106309771537781
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.926
+    ],
+    "inference_time_sec": 7.519
+  },
+  {
+    "image": "pexels-celine-3776818-11430254.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5004544258117676,
+        0.4998334050178528,
+        0.9896568059921265,
+        0.9969802498817444
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.915
+    ],
+    "inference_time_sec": 7.198
+  },
+  {
+    "image": "tope-a-asokere-Zpg6CbtkvAE-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.4235544204711914,
+        0.5377142429351807,
+        0.6063987016677856,
+        0.9223929047584534
+      ],
+      [
+        0.9487696886062622,
+        0.9152848124504089,
+        0.10147380083799362,
+        0.16791163384914398
+      ],
+      [
+        0.7576005458831787,
+        0.8957235813140869,
+        0.1547430008649826,
+        0.20697179436683655
+      ]
+    ],
+    "phrases": [
+      "person",
+      "person",
+      "person"
+    ],
+    "scores": [
+      0.795,
+      0.693,
+      0.675
+    ],
+    "inference_time_sec": 6.358
+  },
+  {
+    "image": "yogesh-rahamatkar-XA4CmqJOxN8-unsplash.jpg",
+    "category": "occluded",
+    "prompt": "person",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.43525949120521545,
+        0.6985229253768921,
+        0.5772361159324646,
+        0.600573718547821
+      ]
+    ],
+    "phrases": [
+      "person"
+    ],
+    "scores": [
+      0.908
+    ],
+    "inference_time_sec": 7.057
+  }
+]

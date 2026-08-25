@@ -1,0 +1,204 @@
+[
+  {
+    "image": "thumb_multiple_01.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "boxes": [
+      [
+        0.7360331416130066,
+        0.5354722738265991,
+        0.10287988185882568,
+        0.20343519747257233
+      ],
+      [
+        0.36405253410339355,
+        0.44586995244026184,
+        0.09159384667873383,
+        0.1910802572965622
+      ],
+      [
+        0.5789774060249329,
+        0.5656659603118896,
+        0.09277740865945816,
+        0.20338056981563568
+      ],
+      [
+        0.47809842228889465,
+        0.4138021171092987,
+        0.07521213591098785,
+        0.14371035993099213
+      ],
+      [
+        0.2610851228237152,
+        0.2016909420490265,
+        0.09947213530540466,
+        0.2104586660861969
+      ]
+    ],
+    "phrases": [
+      "real face",
+      "real face",
+      "real face",
+      "real face",
+      "real face"
+    ],
+    "scores": [
+      0.576,
+      0.553,
+      0.556,
+      0.454,
+      0.387
+    ],
+    "inference_time_sec": 7.598
+  },
+  {
+    "image": "thumb_multiple_02.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 5,
+    "boxes": [
+      [
+        0.4135628640651703,
+        0.4357047975063324,
+        0.07673139125108719,
+        0.17731504142284393
+      ],
+      [
+        0.235973060131073,
+        0.2868533432483673,
+        0.07570084929466248,
+        0.18433918058872223
+      ],
+      [
+        0.773504912853241,
+        0.4353882372379303,
+        0.09992267191410065,
+        0.22311630845069885
+      ],
+      [
+        0.5697811841964722,
+        0.2686232924461365,
+        0.060814909636974335,
+        0.14144805073738098
+      ],
+      [
+        0.45640310645103455,
+        0.24729423224925995,
+        0.061544761061668396,
+        0.12163224071264267
+      ]
+    ],
+    "phrases": [
+      "real face",
+      "real face",
+      "real face",
+      "real face",
+      "real face"
+    ],
+    "scores": [
+      0.528,
+      0.48,
+      0.495,
+      0.47,
+      0.441
+    ],
+    "inference_time_sec": 9.002
+  },
+  {
+    "image": "thumb_occluded.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.6129844188690186,
+        0.4075966477394104,
+        0.46944522857666016,
+        0.40880683064460754
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.649
+    ],
+    "inference_time_sec": 6.088
+  },
+  {
+    "image": "thumb_profile.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.55724036693573,
+        0.5537708401679993,
+        0.578378438949585,
+        0.5646509528160095
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.686
+    ],
+    "inference_time_sec": 7.209
+  },
+  {
+    "image": "thumb_single_lfw00.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5057977437973022,
+        0.5130870938301086,
+        0.3691239655017853,
+        0.44902944564819336
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.849
+    ],
+    "inference_time_sec": 4.138
+  },
+  {
+    "image": "thumb_single_lfw03.jpg",
+    "category": "small_lowres",
+    "prompt": "real face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5083968043327332,
+        0.4744455814361572,
+        0.37340670824050903,
+        0.4916173219680786
+      ]
+    ],
+    "phrases": [
+      "real face"
+    ],
+    "scores": [
+      0.677
+    ],
+    "inference_time_sec": 3.711
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "image": "thumb_multiple_01.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.7361820936203003,
+        0.5354446768760681,
+        0.10290130972862244,
+        0.20239709317684174
+      ],
+      [
+        0.36435145139694214,
+        0.4458518624305725,
+        0.09014914184808731,
+        0.18878284096717834
+      ],
+      [
+        0.5789307951927185,
+        0.5652862191200256,
+        0.09218570590019226,
+        0.1993514895439148
+      ]
+    ],
+    "phrases": [
+      "human face",
+      "human face",
+      "human face"
+    ],
+    "scores": [
+      0.495,
+      0.474,
+      0.485
+    ],
+    "inference_time_sec": 6.002
+  },
+  {
+    "image": "thumb_multiple_02.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.4141170382499695,
+        0.4361010491847992,
+        0.07447363436222076,
+        0.1755625456571579
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.454
+    ],
+    "inference_time_sec": 8.313
+  },
+  {
+    "image": "thumb_occluded.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.6098483800888062,
+        0.4104307293891907,
+        0.4614037573337555,
+        0.40799030661582947
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.564
+    ],
+    "inference_time_sec": 7.25
+  },
+  {
+    "image": "thumb_profile.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5551860332489014,
+        0.553912878036499,
+        0.5696886777877808,
+        0.5625408887863159
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.794
+    ],
+    "inference_time_sec": 7.172
+  },
+  {
+    "image": "thumb_single_lfw00.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5062645673751831,
+        0.5141767263412476,
+        0.36760345101356506,
+        0.4471415579319
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.819
+    ],
+    "inference_time_sec": 5.105
+  },
+  {
+    "image": "thumb_single_lfw03.jpg",
+    "category": "small_lowres",
+    "prompt": "human face",
+    "box_threshold": 0.45,
+    "text_threshold": 0.3,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5076751708984375,
+        0.47541752457618713,
+        0.36941826343536377,
+        0.49159467220306396
+      ]
+    ],
+    "phrases": [
+      "human face"
+    ],
+    "scores": [
+      0.568
+    ],
+    "inference_time_sec": 4.836
+  }
+]

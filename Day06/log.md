@@ -4,4 +4,3 @@
 
 ## To-Do
 - [ ✅ ] Finalize short report: model summary, methodology, Task C results (prompt behavior patterns), Task D threshold findings, limitations, encountered problems
-- [ ✅ ] Build 5–7 slide presentation from the short report

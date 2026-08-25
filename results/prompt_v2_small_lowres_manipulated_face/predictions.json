@@ -1,0 +1,180 @@
+[
+  {
+    "image": "thumb_multiple_01.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 3,
+    "boxes": [
+      [
+        0.3636467754840851,
+        0.44485095143318176,
+        0.0963812842965126,
+        0.19527433812618256
+      ],
+      [
+        0.7360761165618896,
+        0.5349248051643372,
+        0.10583298653364182,
+        0.20594799518585205
+      ],
+      [
+        0.579297661781311,
+        0.5630035996437073,
+        0.09549495577812195,
+        0.20514105260372162
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.455,
+      0.44,
+      0.431
+    ],
+    "inference_time_sec": 4.549
+  },
+  {
+    "image": "thumb_multiple_02.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 4,
+    "boxes": [
+      [
+        0.41278940439224243,
+        0.4353209137916565,
+        0.08177251368761063,
+        0.1821538656949997
+      ],
+      [
+        0.2361612170934677,
+        0.28473684191703796,
+        0.0802309662103653,
+        0.1914380043745041
+      ],
+      [
+        0.7740771174430847,
+        0.4345546364784241,
+        0.10332299768924713,
+        0.22476482391357422
+      ],
+      [
+        0.5698919892311096,
+        0.26704901456832886,
+        0.0643605887889862,
+        0.1466391533613205
+      ]
+    ],
+    "phrases": [
+      "manipulated face",
+      "manipulated face",
+      "manipulated face",
+      "manipulated face"
+    ],
+    "scores": [
+      0.451,
+      0.395,
+      0.433,
+      0.383
+    ],
+    "inference_time_sec": 5.14
+  },
+  {
+    "image": "thumb_occluded.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.6185043454170227,
+        0.4043905735015869,
+        0.497765451669693,
+        0.41542354226112366
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.515
+    ],
+    "inference_time_sec": 5.047
+  },
+  {
+    "image": "thumb_profile.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5632230639457703,
+        0.5530161261558533,
+        0.595816969871521,
+        0.5674294829368591
+      ]
+    ],
+    "phrases": [
+      "face"
+    ],
+    "scores": [
+      0.439
+    ],
+    "inference_time_sec": 7.485
+  },
+  {
+    "image": "thumb_single_lfw00.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5064453482627869,
+        0.5120529532432556,
+        0.3779836595058441,
+        0.4534275233745575
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.789
+    ],
+    "inference_time_sec": 5.218
+  },
+  {
+    "image": "thumb_single_lfw03.jpg",
+    "category": "small_lowres",
+    "prompt": "manipulated face",
+    "box_threshold": 0.35,
+    "text_threshold": 0.25,
+    "num_boxes": 1,
+    "boxes": [
+      [
+        0.5094535946846008,
+        0.46854570508003235,
+        0.3803325891494751,
+        0.48168113827705383
+      ]
+    ],
+    "phrases": [
+      "manipulated face"
+    ],
+    "scores": [
+      0.495
+    ],
+    "inference_time_sec": 5.733
+  }
+]
